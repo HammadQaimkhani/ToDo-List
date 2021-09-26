@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(79, 199, 230);
+}
+
+.main_div{
+    width: 25%;
+    height: 550px;
+    margin-top: 50px; 
+    background: #fff;
+    margin-left: 500px;
+    outline: none;
+    border: 5px solid #fff;
+    box-shadow: 2px 3px 13px 10px rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+
+.center_div{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.center_div h1{
+    width: 100%;
+    text-align: center;
+    background: rgb(194, 104, 221);
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+}
+.center_div input{
+    text-align: center;
+    outline: none;
+    border: none;
+    color: gray;
+    width: 200px;
+    height: 30px;
+    margin: 0 30px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif; 
+    border-bottom: 2px solid rgb(194, 104, 221) ;
+    background-color: transparent;
+}
+.center_div button{
+    text-align: center;
+    width: 50px;
+    height: 40px;
+    border: none;
+    background: rgb(194, 104, 221) ;
+    color: #fff;
+    font-size: 30px;
+    border-radius:50%;
+    margin-bottom: 20px;
+}
+.center_div button:hover{
+    background: green;
+    cursor: pointer;
+}
+.list_style{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    background: #fff;
+}
+.list_style .fa-times{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    background:rgb(194, 104, 221) ;
+    border-radius: 50%;
+    margin: -7px 15px 0 15px;
+    color: aliceblue;
+    font-size: 17px;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+
+}
+.list_style .fa-times:hover{
+    background-color: crimson;
+}
+.center_div ol li{
+    list-style: none;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background: #fff;
+    color: gray;
+    font-family: "Poppins", sans-serif;
+}
